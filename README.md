@@ -54,7 +54,8 @@ https://render.com/deploy?repo=https://github.com/ExitAnt-dev/infinite-kiwoom
 - 모의투자는 [키움 REST API](https://openapi.kiwoom.com) 에서 **모의투자용 앱키**를 따로 발급받아야 합니다(실전 앱키는 모의 서버가 받지 않습니다).
   모의투자 앱키에도 위 「IP 등록」을 해 두세요.
 - **모의투자만 쓸 때:** 위 표의 `KIWOOM_APP_KEY` · `KIWOOM_SECRET_KEY` 에 모의투자용 키를 넣고 「예」를 고르면 됩니다.
-- **실전 · 모의를 둘 다 둘 때:** 위 칸에는 실전 키를 두고, Render 서비스 → **Environment** 에 아래 둘을 더한 뒤 재시작합니다.
+- **실전 · 모의를 둘 다 둘 때:** 위 칸에는 실전 키를 두고, Render 서비스 → **Environment** 에 아래 둘을 더해 저장합니다(저장하면 다시 시작합니다).
+  넣지 않은 칸은 위 칸의 값을 모의투자에도 씁니다.
 
 | 변수(선택) | 넣을 값 |
 |---|---|
